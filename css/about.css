@@ -1,0 +1,43 @@
+.general.about .left{
+    background: url(../assets/contact-background.png);
+    /* background-position: center; */
+    background-size: cover;
+    min-height: 75vh;
+}
+.general.about .content-p h1{
+font-weight: 700;
+    letter-spacing: 4px;
+    font-family: 'Orbitron', sans-serif;
+    color:#fff000;
+}
+.general.about .content-p h2{
+letter-spacing: 2px;
+font-weight: 400;
+color:#000;
+}
+.general.about .content-p p{
+
+    color:#000;
+text-align: justify;
+}
+.content .quote{
+    font-family: 'Lora', serif;
+    font-size: 1.1rem;
+    color:white;
+    bottom: 12%;
+    position: absolute;
+    margin-right: .5rem;
+    margin-left: .5rem;
+}
+
+p.quote::after {
+    height: 10px;
+    margin-top: 1rem;
+    background: #fff000;
+    width: 25%;
+    content: '';
+    display: block;
+}
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus, .navbar-toggler i {
+    color: #fff!important;
+}

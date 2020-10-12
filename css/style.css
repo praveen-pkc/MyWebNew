@@ -1,0 +1,151 @@
+:root{
+    --green:#77e60f;
+    --dark:#000;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color:var(--dark)!important;
+}
+body{
+    background: #fff000;
+    margin:0;
+    padding:0;
+    /* font-family: 'Orbitron', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+}
+.text-dark{
+    color:#000;
+}
+/* section home */
+section{
+     background: url(../assets/home-cover-img.png); 
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    margin-top: -10vh;
+    background-repeat: no-repeat;
+}
+
+/* header */
+.navbar{
+      height: 10vh;  
+    background: transparent;
+}
+.navbar-brand{
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: 0px 25px 0 12px;
+    border-bottom: 5px dashed #fff;
+    border-right: 5px dashed #fff;
+    border-radius: 50%;
+    font-family: 'Orbitron', sans-serif;
+}
+.navbar .navbar-brand span{
+    color:white;
+}
+.btn{
+    border-radius: 0;
+    transition: .5s all;
+}
+.navbar a.btn{
+    background: var(--green);
+    
+}
+.navbar a.btn:hover{
+background: var(--dark);
+transition: .5s all;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color:white!important;
+    transition: .5s all;
+    font-weight: 500;
+}
+.navbar .nav-item.active a,
+.navbar-expand-lg .navbar-nav .nav-link:hover
+    {
+    color:var(--dark)!important;
+    transition: .5s all;
+}  
+.home .home-content .quote{
+    font-family: 'Lemonada', cursive;
+    margin-bottom: 0!important;
+}
+    
+.home-content h1.title{
+    color: white;
+    background: black;
+    font-size: 5rem;
+    letter-spacing: 15px;
+    font-family: 'Red Rose', cursive;
+    text-align: center;
+}
+.home-content h1{
+    color: black;
+    font-size: 3.5rem;
+    font-family: 'Red Rose', cursive;
+}
+.home-content{
+    position: relative;
+     top: 20%;
+    z-index: 10;
+    width:75%;
+   margin: auto;
+}
+.home .home-content .quote::after{
+    display: block;
+    content: '';
+    width: 10rem;
+    height: 3px;
+    background: black;
+    position: absolute;
+    margin: 10px 0;
+}
+    .social-media-icons{
+        margin: 0;
+    margin-top: 1.5rem;
+    }
+.social-media-icons a{
+    margin-right: 1rem;
+}
+/* footer */
+footer {
+    background:#000;
+     
+}
+footer p{
+    font-weight: 100;
+    font-size: small;
+}
+
+/* scroll bar */  
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: black;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #fff000; 
+  }
+  textarea:focus, 
+  textarea.form-control:focus, 
+  input.form-control:focus, 
+  input[type=text]:focus, 
+  input[type=password]:focus, 
+  input[type=email]:focus, 
+  input[type=number]:focus, 
+  [type=text].form-control:focus, 
+  [type=password].form-control:focus, 
+  [type=email].form-control:focus, 
+  [type=tel].form-control:focus, 
+  [contenteditable].form-control:focus {
+    box-shadow:none;
+    border-color: #e4e4e4;
+    
+  }
+  .navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus, .navbar-toggler i{
+      color:#000!important;
+  }

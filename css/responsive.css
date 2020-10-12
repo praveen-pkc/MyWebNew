@@ -1,0 +1,114 @@
+@media (min-width: 992px)
+{
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar{
+        margin-left: 4rem;
+    }
+      
+.home-content{
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-35%, -45%);
+    width: auto;
+}
+}
+ 
+@media (max-width:991px){
+    section.home{
+        background: url(../assets/cover-portfolio.png); 
+       
+   }
+    .navbar-toggler,
+    .navbar-toggler:focus,
+    .navbar-toggler:active,
+    .navbar-toggler-icon:focus,
+    .navbar-toggler i
+    
+    {
+        outline: none;
+        box-shadow: none;
+        font-size: 2rem;
+        color:#e2e2e2;
+    border:none;
+    }
+    .navbar-collapse{
+        z-index: 20;
+        position: absolute;
+        top: 10vh;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        padding: 2rem;
+    background: #000000;
+    padding: 2rem;
+    /* display: block;
+    overflow: hidden; */
+    left: 0;
+    right: 0;
+
+    }
+    .navbar-expand-lg .navbar-nav .nav-link{
+        padding:1rem 0;
+    }
+    .navbar .nav-item.active a, .navbar-expand-lg .navbar-nav .nav-link:hover {
+        color: #fff000!important;
+    }
+}
+@media (max-width:767px){
+    .home-content h1 {
+        font-size: 2.2rem;
+    }
+    .home-content h1.title{
+        font-size: 3rem;
+    letter-spacing: 10px;
+    }
+    .home .home-content .quote{
+        text-align: justify;
+    }
+.contact .socila-media-icons{
+        position: inherit;
+        margin-top: 2rem;
+        padding-top: 4rem;
+    }
+    .general.about .col-md-5{
+order:2;
+    }
+    .general.about .col-md-7{
+
+order: 1;
+    }
+}
+@media (max-width:575px){
+ .contact .bg-white
+    {   padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+
+.home-content h1.title{
+letter-spacing: normal;
+}
+}
+@media (max-width:400px){
+.home-content{
+    width:95%;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+    .general.about .col-md-5,
+    .general.about .col-md-7{
+        min-width:100%!important;
+    }
+    .contact .bg-white
+    {   padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+.home-content h1.title{
+    font-size:4rem;
+    letter-spacing: 20px;
+}
+}

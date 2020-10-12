@@ -1,0 +1,127 @@
+section.general{
+    background: url(../assets/content-bg.png); 
+
+}
+.general .content{
+    margin-top: 15vh;
+}
+
+/* header new styles */
+
+body{
+    
+    background: #e2e2e2;
+}
+section.general{
+    background:#e2e2e2;
+}
+.navbar-brand{
+    color:#fff000!important;
+}
+header{
+    background: #000!important;
+}
+.navbar .nav-item.active a,
+ .navbar-expand-lg .navbar-nav .nav-link:hover{
+    color:#fff000!important;
+}
+
+.form-control{
+    padding: 1.4rem;
+    border-radius: 0;
+    /* border-color: #cecece; */
+    border-color: #e4e4e4;
+    margin: 1rem 0;
+    color:#5e5e5e;
+
+}
+.bg-black{
+    background: #000;
+}
+.bg-white{
+    background: white;
+}
+.msg-send-btn span{
+    transition: .5s;
+}
+.msg-send-btn{
+padding: 1rem;
+transition: .5s;
+width:100%;
+color:black;
+font-weight: 600;
+/* background: #000; */
+background: #fff000;
+}
+.msg-send-btn:hover span{
+    /* background: #fff000; */
+transition: .5s;
+letter-spacing: 2px;
+}
+.address-panel h3,
+.msg-panel h3{
+    font-weight: 400;
+}
+.address-panel h3{
+    color:#fff000;
+}
+
+.socila-media-icons i{
+    padding: .5rem;
+    margin:.5rem;
+    width: 35px;
+    background: #fff000;
+    color:white;
+}
+.address-panel label i{
+    font-size: 1.3rem;
+}
+.socila-media-icons i:hover{
+    background: #000;
+    transition:.5s;
+    cursor:pointer;
+}
+.socila-media-icons{
+position: absolute;
+bottom: 2rem;
+margin: auto;
+left: 0;
+right:0;
+} 
+
+
+.background {
+    position: relative;
+    z-index: 1;
+  }
+.background:before {
+    border-top: 1px solid #e5d800;
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 85%;
+    z-index: -1;
+  }
+.background span {
+    background: #000;
+    padding: 0 6px;
+    font-weight: 400;
+    color:#fff000;
+}
+  ::placeholder {
+    color: #e4e4e4!important;
+    font-weight: 300;
+  }
+/* 
+  .general.contact .col-md-5{
+      background: url(../assets/contact-background.jpg);
+      background-size: cover;
+  } */
+  
+.navbar-toggler, .navbar-toggler:focus, .navbar-toggler:active, .navbar-toggler-icon:focus, .navbar-toggler i {
+    color: #fff!important;
+}
